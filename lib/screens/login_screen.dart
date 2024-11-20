@@ -92,6 +92,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       // Input Username
                       TextFormField(
                         controller: _usernameController,
+                        style: const TextStyle(color: Colors.black),
                         decoration: InputDecoration(
                           labelText: "Email",
                           prefixIcon: const Icon(Icons.email),
@@ -114,6 +115,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       // Input Password
                       TextFormField(
                         controller: _passwordController,
+                        style: const TextStyle(color: Colors.black),
                         obscureText: true,
                         decoration: InputDecoration(
                           labelText: "Password",
@@ -151,58 +153,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Lupa Password dan Sosial Media
+                      // Lupa Password
                       const Text(
                         "Lupa Password?",
                         style: TextStyle(color: Colors.black),
                       ),
-                      const SizedBox(height: 30),
+                      // Lupa Password
                       const Text(
-                        "Atau login dengan sosial media",
+                        "Silakan hubungi admin",
                         style: TextStyle(color: Colors.black),
-                      ),
-                      const SizedBox(height: 20),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          // Facebook Button
-                          ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.blue[900],
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 20,
-                                vertical: 10,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                            ),
-                            onPressed: () {},
-                            child: const Text(
-                              "Facebook",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          ),
-                          const SizedBox(width: 10),
-                          // Github Button
-                          ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.black,
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 20,
-                                vertical: 10,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                            ),
-                            onPressed: () {},
-                            child: const Text(
-                              "Github",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          ),
-                        ],
                       ),
                     ],
                   ),
