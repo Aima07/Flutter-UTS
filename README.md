@@ -1,5 +1,4 @@
-# Menyimpan kode README.md ke dalam sebuah file bernama README.md
-readme_content = """
+
 # Flutter UTS: Aplikasi eLeave
 
 Aplikasi mobile berbasis Flutter untuk manajemen permohonan cuti. Aplikasi ini mencakup fitur login, pelacakan riwayat cuti, visualisasi status cuti di kalender, dan logout.
