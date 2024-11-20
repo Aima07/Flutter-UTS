@@ -15,7 +15,7 @@ Aplikasi mobile berbasis Flutter untuk manajemen permohonan cuti. Aplikasi ini m
 ## Screenshot
 
 ### Halaman Login
-![Halaman Login](lib/images/login_screen.png)
+images/login_screen.png
 
 ### Halaman Utama
 ![Halaman Utama](images/home_screen.png)
